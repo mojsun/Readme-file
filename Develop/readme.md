@@ -1,6 +1,3 @@
-## Video
-[Untitled_ Feb 9, 2023 11_33 PM.webm](https://user-images.githubusercontent.com/122302309/218003818-a66af97f-0395-48f1-8d2b-7f076b9c39c5.webm)
-
 ## Description
 The title of the project is Readme file
 

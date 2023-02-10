@@ -26,7 +26,7 @@ const generateReadmeFile = ({
   email,
 }) =>
   `
-# Description
+## Description
 The title of the project is ${title}\n
 
 ## Table of Contents
@@ -49,17 +49,18 @@ Usage of the project: ${usage}\n
 ## License
 license of the project: ${license}\n
 
-##Contributors
-Contributors of this project: ${contributors}\n
+## Contributors
+Contributors of this project: ${contributors} \n
 
-##Test
-Is there a test included ${test}\n
+## Test
+Is there a test included ${test} \n
 
-##Github
-My Github Username: ${github}\n
+## Github
+My Github Username: ${github} \n
 
-##Email
-My Email address${email}\n
+## Email
+My Email address${email} \n 
+
 `;
 inquirer
   .prompt([
@@ -87,6 +88,7 @@ inquirer
       type: "input",
       name: "license",
       message: "what is the license of this project",
+      choices: ["Academic", "ISC", "MIT"],
     },
     {
       type: "input",
